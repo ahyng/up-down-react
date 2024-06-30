@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Margarine&family=Sedgwick+Ave&family=Shadows+Into+Light&family=Do+Hyeon&family=Gaegu&family=Gowun+Dodum&family=Hi+Melody&display=swap');
+
 html{
     background-color: rgb(220, 210, 135);
 }
@@ -12,6 +14,12 @@ html{
 .title{
     text-align: center;
     color: rgba(255, 255, 255, 0.801);
+    font-family: "Margarine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-family: "Sedgwick Ave", cursive;
+    font-weight: 400;
+    font-style: normal; */
 }
 
 .inputBox{
@@ -29,4 +37,19 @@ button{
     border-radius: 5px;
     border-color: rgb(219, 192, 56);
     background-color: rgba(255, 255, 255, 0.433);
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.guide{
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.gameCount{
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }

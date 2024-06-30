@@ -63,7 +63,7 @@ function App() {
       <div className="App">
         {reset ? 
           <div>
-            <h3>{upDown}</h3> 
+            <h3 className="guide">{upDown}</h3> 
             <button onClick={resetGame}>reset</button>
           </div>
 
@@ -72,11 +72,11 @@ function App() {
           <form onSubmit={guessNum}>
             <input className="inputBox" value={inputNum} type="number" onChange={getInput}/>
             <button>enter</button>
-            <h4>{upDown}</h4>
+            <h4 className="guide">{upDown}</h4>
           </form>
         }
 
-        { gameOverCheck ? null : <h6>남은 기회 : {10 - count}</h6>}
+        { gameOverCheck ? null : <h6 className="gameCount">남은 기회 : {10 - count}</h6>}
         
       </div>
     </div>
