@@ -83,7 +83,7 @@ function App() {
           </form>
         }
 
-        { gameOverCheck ? null : <h6 className="gameCount">남은 기회 : {count === 9 ? <span style={{color : 'red'}}>{10 - count}</span> : <span>{10 - count}</span>}</h6>}
+        { gameOverCheck ? null : <h6 className="gameCount">남은 기회 : {count === 9 ? <span style={{color : 'rgb(192, 0, 0)'}}>{10 - count}</span> : <span>{10 - count}</span>}</h6>}
         
       </div>
     </div>
