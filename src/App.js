@@ -10,7 +10,7 @@ function App() {
   const [gameOverCheck, setGameOver] = useState(false);
 
   const getInput = (event) => {
-    setInputNum(event.target.value);
+    setInputNum(Number(event.target.value));
   }
 
   const resetGame = () => {
@@ -29,19 +29,18 @@ function App() {
 
   const guessNum = (event) => {
     event.preventDefault();
-    console.log(inputNum);
 
-    if (inputNum == "" || inputNum <= 0 || inputNum > 100){
+    if (inputNum === "" || inputNum <= 0 || inputNum > 100){
       alert("1부터 100까지의 수를 입력해주세요!");
     } 
     else {
       setCount((current) => (current + 1));
 
-      if (count == 9) {
+      if (count === 9) {
         gameOver();
       }
 
-      else if (inputNum == number){
+      else if (inputNum === number){
         setUpDown(`${number} 정답!`);
         setReset(true);
         setGameOver(true);
