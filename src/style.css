@@ -7,7 +7,7 @@ html{
 .App{
     text-align: center;
     position: relative;
-    top: 100px;
+    top: 300px;
     background-color: inherit;
 }
 
@@ -17,6 +17,7 @@ html{
     font-family: "Margarine", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 40px;
     /* font-family: "Sedgwick Ave", cursive;
     font-weight: 400;
     font-style: normal; */
@@ -31,7 +32,8 @@ html{
     font-family: "Gowun Dodum", sans-serif;
     font-weight: 600;
     font-style: normal;
-    width: 100px;
+    width: 300px;
+    font-size: 40px;
 }
 
 .inputBox:focus{
@@ -45,16 +47,19 @@ button{
     font-family: "Do Hyeon", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 40px;
 }
 
 .guide{
     font-family: "Gowun Dodum", sans-serif;
     font-weight: 600;
     font-style: normal;
+    font-size: 40px;
 }
 
 .gameCount{
     font-family: "Gowun Dodum", sans-serif;
     font-weight: 600;
     font-style: normal;
+    font-size: 25px;
 }

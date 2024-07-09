@@ -12,7 +12,7 @@ function App() {
   const getInput = (event) => {
     if (isNaN(event.target.value)) {
       alert('1부터 100까지의 수를 입력해주세요!');
-    } else if (event.target.value == ''){
+    } else if (event.target.value === ''){
       setInputNum('');
     } else {
       setInputNum(Number(event.target.value));
